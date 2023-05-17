@@ -1,1 +1,30 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+}  
+body {
+  text-align: center;
+  margin-top: 60px;
+  font-family: calibri;
+}
+p {
+  padding: 25px;
+  font-size: 2rem;
+
+}
+button {
+  margin-top: 25px;
+  font-size: 1rem;
+  border: solid lightgrey 1px;
+  background: lightgrey;
+  padding: 5px 10px;
+}
+button:hover {
+  border: solid black 1px;
+}
+div {
+  margin: 15px;
+}
+img {
+  margin: 10px;
+}

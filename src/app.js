@@ -13,13 +13,13 @@
 	
 	function createExcuse(){
 		let excuse =
-		who[getRandom(4)] +
+		who[getRandom(who.length)] +
 		" " +
-		action[getRandom(4)] +
+		action[getRandom(action.length)] +
 		" " +
-		what[getRandom(4)] +
+		what[getRandom(what.length)] +
 		" " +
-		when[getRandom(5)];
+		when[getRandom(when.length)];
 
 		document.getElementById("excuse").innerHTML = excuse;
 	};

@@ -6,9 +6,7 @@ const who = ['The dog','My grandma','His turtle','My bird'];
 const action = ['ate','peed on','crushed','broke'];
 const what = ['my homework', 'the keys', 'the car', 'the money'];
 const when = ['before the class','right on time','when I finished','during my lunch','while I was praying'];
-	
-	
-	
+
 function createExcuse(){
 	let excuse =
 	who[getRandom(who.length)] +
